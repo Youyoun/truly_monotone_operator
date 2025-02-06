@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1>{run_name}</h1>
+
+    Logfile: <a href="{logfile}">Logs</a>
+
+    <details>
+        <summary>
+            <h2>Arguments<span class="icon">👇</span></h2>
+        </summary>
+        <div>
+            {args}
+        </div>
+    </details>
+
+    <details>
+        <summary>
+            <h2>Performance<span class="icon">👇</span></h2>
+        </summary>
+        <div>
+            {performance}
+        </div>
+    </details>
+
+    <details>
+        <summary>
+            <h2>Training<span class="icon">👇</span></h2>
+        </summary>
+        <div>
+            {trainResults}
+        </div>
+    </details>
+
+    <details>
+        <summary>
+            <h2>TestImages <span class="icon">👇</span></h2>
+        </summary>
+        <div>
+            {testResults}
+        </div>
+    </details>
+    <details>
+        <summary>
+            <h2>Models<span class="icon">👇</span></h2>
+        </summary>
+        <div>
+            {models}
+        </div>
+    </details>
+</body>
+
+</html>
